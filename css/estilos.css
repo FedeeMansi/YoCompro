@@ -1,0 +1,228 @@
+header {
+  background-color: #181717;
+  background-color: #1b0125; }
+
+nav {
+  color: Orange;
+  font-size: x-large;
+  background-color: #181717;
+  text-transform: capitalize; }
+
+h1 {
+  color: #dc1461;
+  font-size: 72px;
+  background-color: #80c09d;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  text-align: center;
+  line-height: 2cm;
+  padding: 2rem;
+  border: solid 5px;
+  border-radius: 2cm;
+  margin-left: 7cm;
+  margin-right: 7cm; }
+
+h1:hover {
+  color: #dda2ac;
+  font-style: normal;
+  background-color: #b0e0dc; }
+
+h2 {
+  color: #9899e0;
+  font-size: x-large; }
+
+h3 {
+  color: black;
+  text-align: center;
+  font-size: 2rem; }
+
+h5 {
+  font-size: large;
+  color: #3b3b3b;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+body {
+  color: #d6b284;
+  background-color: #181717;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12pt;
+  font-style: italic;
+  text-decoration: none;
+  word-spacing: 4px; }
+
+p {
+  color: #b1b1b1;
+  text-align: center; }
+
+footer {
+  margin-top: 10px;
+  color: #b1b1b1;
+  line-height: 1cm;
+  background-image: linear-gradient(#1f0a31, #360836); }
+
+ul {
+  list-style: none; }
+
+li {
+  display: inline-block;
+  width: 25%;
+  position: relative;
+  font-size: xx-large;
+  text-align: center;
+  padding-top: 1cm; }
+
+/*CLASES*/
+.divcards {
+  background-color: 24, 23, 23; }
+
+.h2 {
+  color: #424242;
+  font-size: xx-large; }
+
+.iniciarsesion {
+  text-align: right; }
+
+.back {
+  background-image: url(img/backgrounddegrade.jpg); }
+
+.backcolor {
+  background-image: url(img/pexels-1091994.jpg); }
+
+.textoprin {
+  text-align: justify;
+  display: flex; }
+
+.texto {
+  padding: 1cm;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: darkkhaki;
+  margin-left: auto;
+  border-radius: 0.12cm;
+  border-top: dotted 15px red;
+  border-left: dotted 15px #3700ff;
+  border-right: dotted 15px green;
+  border-bottom: dotted 15px #ffc400;
+  animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
+
+.datos {
+  text-align: center;
+  text-decoration: underline; }
+
+.formulario {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+.menu {
+  display: flex;
+  padding: 0.5cm;
+  text-align: center;
+  border: solid 5px #00c3ff;
+  margin-left: 5cm;
+  margin-right: 5cm; }
+
+.flexIndex {
+  display: flex;
+  justify-content: space-around; }
+
+.nuestrosVendedores {
+  text-align: center;
+  color: #e7d8e5;
+  font-size: 3rem; }
+
+.ordenTabla {
+  display: flex;
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+#grideventos {
+  display: grid;
+  border-style: groove;
+  border-width: 1rem;
+  border-color: brown;
+  color: #8ee48e;
+  font-size: x-large;
+  text-transform: capitalize; }
+
+#otrogrid {
+  display: grid;
+  border-style: groove;
+  border-width: 1rem;
+  border-color: #2aa572;
+  color: #e48eb2;
+  font-size: 2rem;
+  text-align: center; }
+
+.color-change-5x {
+  animation: color-change-5x 8s linear infinite alternate both; }
+
+/* BACKGROUND MULTICOLOR*/
+
+@keyframes color-change-5x {
+  0% {
+    background: #19dcea; }
+  25% {
+    background: #b22cff; }
+  50% {
+    background: #ea2222; }
+  75% {
+    background: #f5be10; }
+  100% {
+    background: #3bd80d; } }
+
+/* YO COMPRO EFFECTS*/
+.jello-horizontal {
+  animation: jello-horizontal 1s 1s backwards; }
+
+@keyframes jello-horizontal {
+  0% {
+    transform: scale3d(1, 1, 1); }
+  30% {
+    transform: scale3d(1.25, 0.75, 1); }
+  40% {
+    transform: scale3d(0.75, 1.25, 1); }
+  50% {
+    transform: scale3d(1.15, 0.85, 1); }
+  65% {
+    transform: scale3d(0.95, 1.05, 1); }
+  75% {
+    transform: scale3d(1.05, 0.95, 1); }
+  100% {
+    transform: scale3d(1, 1, 1); } }
+
+/*Text animation*/
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    opacity: 1; } }
+
+/*imagen portada effect*/
+.rotate-in-2-fwd-ccw {
+  animation: rotate-in-2-fwd-ccw 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+
+@keyframes rotate-in-2-fwd-ccw {
+  0% {
+    transform: translateZ(-200px) rotate(45deg);
+    opacity: 0; }
+  100% {
+    transform: translateZ(0) rotate(0);
+    opacity: 1; } }
+
+/* animacion imagenes index*/
+.roll-in-blurred-right {
+  animation: roll-in-blurred-right 0.65s cubic-bezier(0.23, 1, 0.32, 1) both; }
+
+@keyframes roll-in-blurred-right {
+  0% {
+    transform: translateX(1000px) rotate(720deg);
+    filter: blur(50px);
+    opacity: 0; }
+  100% {
+    transform: translateX(0) rotate(0deg);
+    filter: blur(0);
+    opacity: 1; } }
+/*# sourceMappingURL=estilos.css.map */
